@@ -1,0 +1,19 @@
+public class Kata {
+
+  public static boolean feast(String beast, String dish) {
+
+		String bFL = beast.substring(0, 1);
+		String bSL = beast.substring(beast.length() - 1);
+
+		String dFL = dish.substring(0, 1);
+		String dSL = dish.substring(dish.length() - 1);
+
+		if ((bFL.equals(dFL)) && (bSL.equals(dSL))) {
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+  
+}
